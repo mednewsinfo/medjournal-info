@@ -1,0 +1,155 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #333;
+}
+p {
+    margin-bottom: 20px;
+}
+header {
+    padding: 20px 10px;
+    text-align: center;
+    background: #c4170c;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+.container {
+    max-width: 960px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+.center {
+    text-align: center;
+}
+.red-txt {
+    color: red;
+}
+.container img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+}
+h2,
+.h2 {
+    font-size: 22px;
+}
+.container > div {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+ul,
+ol {
+    padding: 0 0 0 20px;
+    margin: 0 0 20px 0;
+}
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
+.container > div p:last-child,
+.container > div ul,
+.container > div ol {
+    margin-bottom: 0;
+}
+.yell-bg {
+    background: #ffbf0045;
+}
+figure {
+    margin: 0 auto 20px;
+    max-width: 650px;
+}
+figure img {
+    margin-bottom: 8px !important;
+}
+figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 0.9em;
+}
+.gray-bg {
+    background: rgb(156 156 156 / 33%);
+    border: 1px #333 solid;
+}
+.color2 {
+    color: #c4170c;
+}
+.green-bg {
+    background: #00800029;
+    padding: 10px;
+    border: 3px red solid;
+}
+
+.b-comments__comment {
+    height: 100%;
+    overflow: hidden;
+}
+
+img.b-comments__item-avatar {
+    float: left;
+    margin-right: 10px !important;
+    width: 50px;
+    height: 50px;
+}
+
+.b-comments__item-ind {
+    margin-left: 60px;
+}
+
+.b-comments__item-head {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.b-comments__item-ind img {
+    margin: 6px 0 0 0;
+}
+.reply {
+    margin-left: 30px;
+}
+.bot-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 auto 30px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 10px;
+    background: red;
+    text-transform: uppercase;
+}
+.container > div.b-comments {
+    padding: 0;
+}
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 26px;
+        margin-top: 0;
+    }
+    h2,
+    .h2 {
+        font-size: 21px;
+    }
+}
+.container a {
+    color: #18219c;
+    font-weight: 600;
+}
+.container a:hover {
+    text-decoration: none;
+}
+
+.container img{
+    border-radius: 8px;
+}
